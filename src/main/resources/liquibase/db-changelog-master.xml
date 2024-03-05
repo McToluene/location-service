@@ -1,0 +1,13 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="changelog/13-01-2023/location-service.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/13-01-2023/2.insert-language.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/13-01-2023/3.insert-currency.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/09-02-2023/insert_countries.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/13-03-2023/alter-currency-table.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/09-02-2023/alter-languages.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/17-03-2023/country-settings.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>

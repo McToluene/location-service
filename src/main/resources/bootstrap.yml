@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      uri: https://config-server.sabi.am
+  application:
+    name: location-service
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+

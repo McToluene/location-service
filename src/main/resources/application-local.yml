@@ -1,0 +1,32 @@
+spring:
+  messages:
+    basename: message
+  application:
+    name: location-service
+  sleuth:
+    baggage:
+      correlation-fields: tracingId
+      local-fields: tracingId
+  r2dbc:
+    host: ${dev-host}
+    port: ${dev-db-port}
+    database: location_db
+    username: ${dev-db-user}
+    password: ${dev-db-pass}
+    properties:
+      ssl: true
+    maxSize: 50
+    pool:
+      enabled: true
+      name: location_service_pool
+      initial-size: 10
+      max-idle-time: 10m
+  liquibase:
+    url: jdbc:postgresql://${dev-host}:${dev-db-port}/location_db
+    password: ${dev-db-pass}
+    user: ${dev-db-user}
+    change-log: classpath:liquibase/db-changelog-master.xml
+
+logging.config: classpath:logback-spring.xml
+server:
+  port: 8087
