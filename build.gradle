@@ -35,12 +35,12 @@ jacocoTestReport {
     afterEvaluate {
         classDirectories.setFrom(files(classDirectories.files.collect {
             fileTree(dir: it, exclude: [
-                    "com/sabiam/locationservice/exceptions/**",
-                    "com/sabiam/locationservice/domains/**",
-                    "com/sabiam/locationservice/models/**",
-                    "com/sabiam/locationservice/configs/**",
-                    "com/sabiam/locationservice/repositories/**",
-                    "com/sabiam/locationservice/NotificationTemplateServiceApplication.class"
+                    "com/mctoluene/locationservice/exceptions/**",
+                    "com/mctoluene/locationservice/domains/**",
+                    "com/mctoluene/locationservice/models/**",
+                    "com/mctoluene/locationservice/configs/**",
+                    "com/mctoluene/locationservice/repositories/**",
+                    "com/mctoluene/locationservice/NotificationTemplateServiceApplication.class"
             ])
         }))
     }
