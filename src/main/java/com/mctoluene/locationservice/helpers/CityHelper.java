@@ -6,7 +6,7 @@ import com.mctoluene.locationservice.domains.enums.Status;
 import com.mctoluene.locationservice.domains.requestdtos.CityRequestDto;
 import com.mctoluene.locationservice.models.City;
 import com.mctoluene.locationservice.models.StateProvince;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.springframework.http.ResponseEntity;
 

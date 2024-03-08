@@ -5,7 +5,7 @@ import com.mctoluene.locationservice.domains.requestdtos.CityRequestDto;
 import com.mctoluene.locationservice.helpers.CityHelper;
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.CityService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

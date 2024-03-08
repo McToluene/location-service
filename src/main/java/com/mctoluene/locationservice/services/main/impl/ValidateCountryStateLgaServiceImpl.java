@@ -7,8 +7,8 @@ import com.mctoluene.locationservice.services.internal.LocalGovernmentInternalSe
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
 import com.mctoluene.locationservice.services.internal.StateProvinceInternalService;
 import com.mctoluene.locationservice.services.main.ValidateCountryStateLgaService;
-import com.sabiam.commons.exceptions.NotFoundException;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.exceptions.NotFoundException;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

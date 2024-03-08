@@ -5,7 +5,7 @@ import com.mctoluene.locationservice.domains.enums.EnumResponseAdapter;
 import com.mctoluene.locationservice.domains.enums.Sorting;
 import com.mctoluene.locationservice.domains.enums.Status;
 import com.mctoluene.locationservice.exceptions.PageableException;
-import com.sabiam.commons.exceptions.NotFoundException;
+import com.mctolueneam.commons.exceptions.NotFoundException;
 
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;

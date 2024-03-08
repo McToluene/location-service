@@ -6,8 +6,8 @@ import com.mctoluene.locationservice.domains.dtos.CountryDto;
 import com.mctoluene.locationservice.models.Country;
 import com.mctoluene.locationservice.models.CountryMetaData;
 import com.mctoluene.locationservice.models.CountrySetting;
-import com.sabiam.commons.exceptions.UnProcessableEntityException;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.exceptions.UnProcessableEntityException;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.springframework.http.ResponseEntity;
 

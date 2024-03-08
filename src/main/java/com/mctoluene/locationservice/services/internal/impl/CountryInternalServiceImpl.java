@@ -8,8 +8,8 @@ import com.mctoluene.locationservice.models.Country;
 import com.mctoluene.locationservice.repositories.CountryRepository;
 import com.mctoluene.locationservice.services.internal.CountryInternalService;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
-import com.sabiam.commons.exceptions.NotFoundException;
-import com.sabiam.commons.exceptions.UnProcessableEntityException;
+import com.mctolueneam.commons.exceptions.NotFoundException;
+import com.mctolueneam.commons.exceptions.UnProcessableEntityException;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

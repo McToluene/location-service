@@ -5,8 +5,8 @@ import com.mctoluene.locationservice.models.Currency;
 import com.mctoluene.locationservice.repositories.CurrencyRepository;
 import com.mctoluene.locationservice.services.internal.CurrencyInternalService;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
-import com.sabiam.commons.exceptions.UnProcessableEntityException;
-import com.sabiam.commons.exceptions.ValidatorException;
+import com.mctolueneam.commons.exceptions.UnProcessableEntityException;
+import com.mctolueneam.commons.exceptions.ValidatorException;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

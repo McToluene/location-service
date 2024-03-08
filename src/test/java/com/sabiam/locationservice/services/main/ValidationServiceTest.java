@@ -1,4 +1,4 @@
-package com.sabiam.locationservice.services.main;
+package com.mctolueneam.locationservice.services.main;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

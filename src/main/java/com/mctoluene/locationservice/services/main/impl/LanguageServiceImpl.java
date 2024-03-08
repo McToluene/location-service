@@ -8,8 +8,8 @@ import com.mctoluene.locationservice.models.Language;
 import com.mctoluene.locationservice.services.internal.LanguageInternalService;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
 import com.mctoluene.locationservice.services.main.LanguageService;
-import com.sabiam.commons.exceptions.ConflictException;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.exceptions.ConflictException;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

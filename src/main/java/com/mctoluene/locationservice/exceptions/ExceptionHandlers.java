@@ -1,10 +1,10 @@
 package com.mctoluene.locationservice.exceptions;
 
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
-import com.sabiam.commons.exceptions.ConflictException;
-import com.sabiam.commons.exceptions.NotFoundException;
-import com.sabiam.commons.exceptions.ValidatorException;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.exceptions.ConflictException;
+import com.mctolueneam.commons.exceptions.NotFoundException;
+import com.mctolueneam.commons.exceptions.ValidatorException;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

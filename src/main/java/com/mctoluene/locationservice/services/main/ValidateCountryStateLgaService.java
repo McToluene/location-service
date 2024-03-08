@@ -1,6 +1,6 @@
 package com.mctoluene.locationservice.services.main;
 
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 import reactor.core.publisher.Mono;
 
 import java.util.List;

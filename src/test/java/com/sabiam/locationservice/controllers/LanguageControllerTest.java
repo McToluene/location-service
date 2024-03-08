@@ -1,4 +1,4 @@
-package com.sabiam.locationservice.controllers;
+package com.mctolueneam.locationservice.controllers;
 
 import com.mctoluene.locationservice.controllers.LanguageController;
 import com.mctoluene.locationservice.domains.dtos.LanguageDto;
@@ -8,7 +8,7 @@ import com.mctoluene.locationservice.models.Language;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.LanguageService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -5,7 +5,7 @@ import com.mctoluene.locationservice.domains.dtos.UpdateCountryDto;
 import com.mctoluene.locationservice.domains.requestdtos.IdListDto;
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.CountryService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

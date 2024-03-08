@@ -12,7 +12,7 @@ import com.mctoluene.locationservice.services.internal.CurrencyInternalService;
 import com.mctoluene.locationservice.services.internal.LanguageInternalService;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
 import com.mctoluene.locationservice.services.main.CountryService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import io.r2dbc.postgresql.codec.Json;
 import lombok.RequiredArgsConstructor;

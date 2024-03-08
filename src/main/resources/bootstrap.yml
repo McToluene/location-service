@@ -1,14 +1,12 @@
 spring:
   cloud:
     config:
-      uri: https://config-server.sabi.am
+      uri: https://config-server.mctoluene.am
   application:
     name: location-service
-
 
 management:
   endpoints:
     web:
       exposure:
         include: refresh
-

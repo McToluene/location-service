@@ -1,10 +1,10 @@
-package com.sabiam.locationservice.controllers;
+package com.mctolueneam.locationservice.controllers;
 
 import com.mctoluene.locationservice.controllers.ValidationController;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.ValidateCountryStateLgaService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

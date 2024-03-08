@@ -2,7 +2,7 @@ package com.mctoluene.locationservice.controllers;
 
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.ValidateCountryStateLgaService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

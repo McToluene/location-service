@@ -4,7 +4,7 @@ import com.mctoluene.locationservice.domains.requestdtos.LanguageRequestDto;
 import com.mctoluene.locationservice.helpers.LanguageHelper;
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.LanguageService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

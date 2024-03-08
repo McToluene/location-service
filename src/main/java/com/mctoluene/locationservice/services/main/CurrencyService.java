@@ -2,7 +2,7 @@ package com.mctoluene.locationservice.services.main;
 
 import com.mctoluene.locationservice.domains.requestdtos.CurrencyRequestDto;
 import com.mctoluene.locationservice.domains.requestdtos.StateProvinceRequestDto;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import reactor.core.publisher.Mono;
 

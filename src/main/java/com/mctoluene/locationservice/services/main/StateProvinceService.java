@@ -2,7 +2,7 @@ package com.mctoluene.locationservice.services.main;
 
 import com.mctoluene.locationservice.domains.dtos.StateProvinceDto;
 import com.mctoluene.locationservice.domains.requestdtos.StateProvinceRequestDto;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.springframework.data.domain.PageImpl;
 import reactor.core.publisher.Mono;

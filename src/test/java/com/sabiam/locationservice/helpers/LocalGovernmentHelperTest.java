@@ -1,4 +1,4 @@
-package com.sabiam.locationservice.helpers;
+package com.mctolueneam.locationservice.helpers;
 
 import com.mctoluene.locationservice.domains.dtos.CityDto;
 import com.mctoluene.locationservice.domains.dtos.LocalGovernmentDto;
@@ -7,7 +7,7 @@ import com.mctoluene.locationservice.domains.requestdtos.LocalGovernmentRequestD
 import com.mctoluene.locationservice.helpers.LocalGovernmentHelper;
 import com.mctoluene.locationservice.models.City;
 import com.mctoluene.locationservice.models.LocalGovernment;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.assertj.core.api.AssertionsForClassTypes;
 import org.junit.jupiter.api.Test;

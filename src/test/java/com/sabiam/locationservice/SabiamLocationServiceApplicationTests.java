@@ -1,13 +1,13 @@
-//package com.sabiam.locationservice;
+// package com.mctolueneam.locationservice;
 //
-//import org.junit.jupiter.api.Test;
-//import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 //
-//@SpringBootTest
-//class SabiamLocationServiceApplicationTests {
+// @SpringBootTest
+// class mctolueneamLocationServiceApplicationTests {
 //
-//    @Test
-//    void contextLoads() {
-//    }
+// @Test
+// void contextLoads() {
+// }
 //
-//}
+// }

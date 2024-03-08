@@ -1,4 +1,4 @@
-package com.sabiam.locationservice.controllers;
+package com.mctolueneam.locationservice.controllers;
 
 import com.mctoluene.locationservice.controllers.CurrencyController;
 import com.mctoluene.locationservice.domains.dtos.CurrencyDto;
@@ -7,7 +7,7 @@ import com.mctoluene.locationservice.models.Currency;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.CurrencyService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

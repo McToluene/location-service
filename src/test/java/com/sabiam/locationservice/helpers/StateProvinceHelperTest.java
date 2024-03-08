@@ -1,4 +1,4 @@
-package com.sabiam.locationservice.helpers;
+package com.mctolueneam.locationservice.helpers;
 
 import com.mctoluene.locationservice.domains.dtos.CountryDto;
 import com.mctoluene.locationservice.domains.dtos.StateProvinceDto;
@@ -7,7 +7,7 @@ import com.mctoluene.locationservice.domains.requestdtos.StateProvinceRequestDto
 import com.mctoluene.locationservice.helpers.StateProvinceHelper;
 import com.mctoluene.locationservice.models.Country;
 import com.mctoluene.locationservice.models.StateProvince;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;

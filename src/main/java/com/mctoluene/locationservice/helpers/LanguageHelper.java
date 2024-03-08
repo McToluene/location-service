@@ -4,7 +4,7 @@ import com.mctoluene.locationservice.domains.dtos.LanguageDto;
 import com.mctoluene.locationservice.domains.enums.Status;
 import com.mctoluene.locationservice.domains.requestdtos.LanguageRequestDto;
 import com.mctoluene.locationservice.models.Language;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.springframework.http.ResponseEntity;
 

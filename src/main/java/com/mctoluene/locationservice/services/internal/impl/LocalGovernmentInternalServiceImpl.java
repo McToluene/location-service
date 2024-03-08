@@ -7,9 +7,9 @@ import com.mctoluene.locationservice.models.LocalGovernment;
 import com.mctoluene.locationservice.repositories.LocalGovernmentRepository;
 import com.mctoluene.locationservice.services.internal.LocalGovernmentInternalService;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
-import com.sabiam.commons.exceptions.NotFoundException;
-import com.sabiam.commons.exceptions.UnProcessableEntityException;
-import com.sabiam.commons.exceptions.ValidatorException;
+import com.mctolueneam.commons.exceptions.NotFoundException;
+import com.mctolueneam.commons.exceptions.UnProcessableEntityException;
+import com.mctolueneam.commons.exceptions.ValidatorException;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

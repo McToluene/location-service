@@ -1,4 +1,4 @@
-package com.sabiam.locationservice.services.main;
+package com.mctolueneam.locationservice.services.main;
 
 import com.mctoluene.locationservice.domains.dtos.CurrencyDto;
 import com.mctoluene.locationservice.domains.requestdtos.CurrencyRequestDto;
@@ -7,7 +7,7 @@ import com.mctoluene.locationservice.services.internal.CurrencyInternalService;
 import com.mctoluene.locationservice.services.internal.MessageSourceService;
 import com.mctoluene.locationservice.services.main.CurrencyService;
 import com.mctoluene.locationservice.services.main.impl.CurrencyServiceImpl;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -7,7 +7,7 @@ plugins {
     id 'org.liquibase.gradle' version '2.0.4'
 }
 
-group = 'com.sabiam'
+group = 'com.mctolueneam'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
@@ -67,13 +67,6 @@ jacocoTestCoverageVerification {
 
 repositories {
     mavenCentral()
-    maven {
-        url 'https://pkgs.dev.azure.com/o2o-sabi/340ba9ed-da61-4e5e-b7d0-42678ed96168/_packaging/commons-model-lib/maven/v1'
-        name 'commons-model-lib'
-        authentication {
-            basic(BasicAuthentication)
-        }
-    }
 }
 
 dependencies {
@@ -95,7 +88,7 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '3.0.0'
     implementation group: 'io.r2dbc', name: 'r2dbc-postgresql', version: '0.8.13.RELEASE'
-    implementation group: 'com.sabiam', name: 'commons-model-lib', version: '1.1.8-SNAPSHOT'
+    implementation group: 'com.mctolueneam', name: 'commons-model-lib', version: '1.1.8-SNAPSHOT'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     testImplementation 'org.projectlombok:lombok:1.18.24'
     implementation 'org.postgresql:postgresql:42.5.1'

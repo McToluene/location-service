@@ -1,4 +1,4 @@
-package com.sabiam.locationservice.helpers;
+package com.mctolueneam.locationservice.helpers;
 
 import org.junit.jupiter.api.Test;
 

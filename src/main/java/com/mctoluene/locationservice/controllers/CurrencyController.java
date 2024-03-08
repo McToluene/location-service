@@ -4,7 +4,7 @@ import com.mctoluene.locationservice.domains.requestdtos.CurrencyRequestDto;
 import com.mctoluene.locationservice.helpers.CurrencyHelper;
 import com.mctoluene.locationservice.services.internal.TracingService;
 import com.mctoluene.locationservice.services.main.CurrencyService;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

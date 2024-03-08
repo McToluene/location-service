@@ -1,7 +1,7 @@
 package com.mctoluene.locationservice.services.main;
 
 import com.mctoluene.locationservice.domains.requestdtos.LanguageRequestDto;
-import com.sabiam.commons.response.AppResponse;
+import com.mctolueneam.commons.response.AppResponse;
 
 import reactor.core.publisher.Mono;
 
